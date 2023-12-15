@@ -1,14 +1,16 @@
-let a = prompt("Enter the first variable value: ",0);
-let b= prompt("Enter the second variable value: ", 0);
+'use strict';
 
-let sum = +a + +b;
+const a = prompt("Enter the first variable value: ",0);
+const b= prompt("Enter the second variable value: ", 0);
+
+const sum = +a + +b;
 alert( a + "+" + b + '=' + sum)
 
-let subtraction = +a - +b;
+const subtraction = +a - +b;
 alert( a + "-" + b + '=' + subtraction)
 
-let division = +a / +b;
+const division = +a / +b;
 alert( a + "/" + b + '=' + division)
 
-let multiplication = +a * +b;
+const multiplication = +a * +b;
 alert( a + "*" + b + '=' + multiplication)
