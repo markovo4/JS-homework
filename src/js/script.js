@@ -1,18 +1,18 @@
-// Task #1
-let admin, name;
+'use strict';
 
-name = "John";
-admin = name;
+// Task #1
+const name = "John";
+const admin = name;
 
 alert(admin)
 
 
 // Task#2
-let ourPlanetName = "Earth";
-let currentUserName = "John";
+const ourPlanetName = "Earth";
+const currentUserName = "John";
 
 
 // Task #3
-let twoNumbers = "10" + 10
+const twoNumbers = "10" + 10
 alert(typeof(twoNumbers))
 alert(twoNumbers)
