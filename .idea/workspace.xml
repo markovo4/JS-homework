@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d53709d4-164d-48e2-95e7-35d539b4701c" name="Changes" comment="Homework-8">
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;markovo4&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="110ce3f1-bdbb-4d23-8396-4e63c35c3831" />
+        <option name="url" value="https://github.com/markovo4/JS-homework.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2ZWuWdBvmY55YDe1nY5UOa7Wody" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Node.js.script.js.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "hw-9",
+    "js.last.introduce.type": "CONST",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d53709d4-164d-48e2-95e7-35d539b4701c" name="Changes" comment="" />
+      <created>1702550188760</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702550188760</updated>
+      <workItem from="1702550189778" duration="304000" />
+      <workItem from="1702554720332" duration="8000" />
+      <workItem from="1702554735523" duration="3943000" />
+      <workItem from="1702583073176" duration="317000" />
+      <workItem from="1702643609274" duration="1678000" />
+      <workItem from="1702803627923" duration="605000" />
+      <workItem from="1702912494195" duration="2125000" />
+      <workItem from="1702923522721" duration="48000" />
+      <workItem from="1703018133030" duration="21000" />
+      <workItem from="1703408489241" duration="18000" />
+      <workItem from="1703508700525" duration="27000" />
+      <workItem from="1703508730663" duration="1467000" />
+      <workItem from="1703510214296" duration="2325000" />
+      <workItem from="1703516863052" duration="26000" />
+      <workItem from="1703516896101" duration="4419000" />
+      <workItem from="1703791452966" duration="4757000" />
+      <workItem from="1703796254065" duration="1737000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initialization">
+      <option name="closed" value="true" />
+      <created>1702550389818</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702550389818</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Homework-1">
+      <option name="closed" value="true" />
+      <created>1702555711766</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702555711766</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Homework-2">
+      <option name="closed" value="true" />
+      <created>1702556863981</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702556863981</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Homework-2">
+      <option name="closed" value="true" />
+      <created>1702558079333</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702558079333</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Homework-2-corrected">
+      <option name="closed" value="true" />
+      <created>1702643752591</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702643752591</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Homework-1-corrected">
+      <option name="closed" value="true" />
+      <created>1702643833262</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702643833262</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Homework-2-corrected">
+      <option name="closed" value="true" />
+      <created>1702645011011</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702645011011</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Homework-5">
+      <option name="closed" value="true" />
+      <created>1703519434040</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703519434040</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Homework-6">
+      <option name="closed" value="true" />
+      <created>1703794436476</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1703794436476</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Homework-6">
+      <option name="closed" value="true" />
+      <created>1703794844285</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1703794844285</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Homework-7">
+      <option name="closed" value="true" />
+      <created>1703794896571</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703794896571</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Homework-7">
+      <option name="closed" value="true" />
+      <created>1703796143780</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1703796143780</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Homework-8">
+      <option name="closed" value="true" />
+      <created>1703797448255</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1703797448255</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="hw-7" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initialization" />
+    <MESSAGE value="Homework-1" />
+    <MESSAGE value="Homework-2" />
+    <MESSAGE value="Homework-1-corrected" />
+    <MESSAGE value="Homework-2-corrected" />
+    <MESSAGE value="Homework-5" />
+    <MESSAGE value="Homework-" />
+    <MESSAGE value="Homework-6" />
+    <MESSAGE value="Homework-7" />
+    <MESSAGE value="Homework-8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework-8" />
+  </component>
+</project>
