@@ -3,13 +3,11 @@
 
 // part 1
 let output= "";
-let i = 20;
 
-for(;i < 30; i += 0.5){
+for(let i = 20; i < 30; i += 0.5){
     output += ` ${i}`;
 }
 console.log(output);
-
 
 //part 2
 const dollars = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
@@ -23,8 +21,10 @@ for(let i = 0; i < 10; i++){
 const n = +prompt("Please enter a number for n:", "");
 
 for (let i = 1; i < 101; i++){
-    if(i**2 < n){
-        console.log(i)
+    if(i**2 > n){
+        continue;
+    } else if(i**2 < n){
+        console.log(i);
     }
 }
 
