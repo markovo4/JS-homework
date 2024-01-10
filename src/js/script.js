@@ -21,11 +21,8 @@ for(let i = 0; i < 10; i++){
 const n = +prompt("Please enter a number for n:", "");
 
 for (let i = 1; i < 101; i++){
-    if(i**2 > n){
-        continue;
-    } else if(i**2 < n){
+    if(i**2 > n) continue;
         console.log(i);
-    }
 }
 
 
