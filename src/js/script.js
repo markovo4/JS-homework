@@ -2,7 +2,10 @@
 
 function generateKey(length, characters){
     let pick = '';
-    while(pick.length < length) pick += characters[Math.floor(Math.random()*characters.length)];
+    while(pick.length < length){
+        pick += characters[Math.floor(Math.random()*characters.length)];
+    }
+
     return pick;
 }
 
