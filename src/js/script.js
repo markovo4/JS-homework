@@ -25,8 +25,6 @@ for (let i = 0; i < 100; i++){
 
 
 
-
-
 //Version 2
 const revRandNum2 = function() {
 
