@@ -2,7 +2,7 @@
 
 function defWordEnding(userAge){
 
-    if(isNaN(userAge) || userAge === null || userAge === 0){
+    if(isNaN(userAge) || userAge === null || userAge === 0 || typeof(Number){
         return 'Error';
     } else if(userAge % 10 === 1 && userAge % 100 !== 11){
         return `${userAge} рік`;
