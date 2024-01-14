@@ -1,17 +1,19 @@
 'use strict';
 
 function padString(str, length, symbol = '*', addRight = true){
-    if(typeof str !== 'string' || typeof length !== 'number' || typeof symbol !== 'string' || typeof addRight !== 'boolean') return "Error";
+    if(typeof str !== 'string') throw new Error("str is not the type of string");
+    if(typeof length !== 'number') throw new Error("length is not the type of number");
 
-    if(str.length < length){
-        const symbolRepeat = symbol.repeat(length - str.length);
-        return addRight ? str + symbolRepeat : symbolRepeat + str;
-    } else if(str.length > length){
-        return str.substr(0, length);
-    } else {
-        return str;
-    }
+    if(str.length === length) return str;
+    if(str.length > length) return str.substring(0, length);
+
+    if(typeof symbol !== 'string' || symbol.length !== 1) throw new Error("symbol is not the type of string or its length is not 1");
+    if(typeof addRight !== 'boolean') throw new Error("addRight is not the type of boolean");
+
+    const extension = symbol.repeat(length - str.length);
+    return addRight ? str + extension : extension + str;
 }
+
 
 console.log(padString('Hello', 8,));
 console.log(padString('Hello', 6,'*', false));
