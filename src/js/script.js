@@ -13,13 +13,15 @@ const revRandNum = function(){
 }
 
 const arrayOfUniqueNum = [];
+while(arrayOfUniqueNum.length !== 90){
 
-while(arrayOfUniqueNum.length !== 100){
     let num = revRandNum();
-    if(arrayOfUniqueNum.find(num) !== num){
+
+    if (!arrayOfUniqueNum.includes(num)) {
         arrayOfUniqueNum.push(num);
     }
 }
+
 console.log(arrayOfUniqueNum);
 
 
