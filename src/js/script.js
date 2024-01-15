@@ -2,21 +2,22 @@
 
 const revRandNum = function(){
 
-    const randomNum = Math.floor(Math.random()*101);
+    const randomNum = Math.floor(Math.random()*150);
     const reverseNum = parseInt(randomNum
             .toString()
             .split('')
-            .reverse().join('')
+            .reverse()
+            .join('')
         , 10);
     return reverseNum;
-
 }
 
 const arrayOfUniqueNum = [];
-while(arrayOfUniqueNum.length !== 90){
+
+
+while(arrayOfUniqueNum.length !== 100){
 
     let num = revRandNum();
-
     if (!arrayOfUniqueNum.includes(num)) {
         arrayOfUniqueNum.push(num);
     }
