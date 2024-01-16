@@ -1,18 +1,27 @@
 'use strict';
 
-const revRandNum = function(length) {
+const arrayOfUniqueNum = [];
 
-    const arrayOfUniqueNum = [];
+const revRandNum = function() {
 
-    while (arrayOfUniqueNum.length !== length) {
-        const num = Math.floor(Math.random() * 101);
-        if (!arrayOfUniqueNum.includes(num)) arrayOfUniqueNum.push(num);
+    let randNum = Math.floor(Math.random() * 100);
+
+    if (!arrayOfUniqueNum.includes(randNum)) {
+        arrayOfUniqueNum.push(randNum);
+        return randNum;
+    } else while (arrayOfUniqueNum.includes(randNum)) {
+        randNum = Math.floor(Math.random() * 100 + 1);
     }
-    return arrayOfUniqueNum;
+
+    arrayOfUniqueNum.push(randNum);
+    return randNum;
 
 }
 
-revRandNum(100);
+for (let i = 0; i < 100; i++){
+    console.log(revRandNum());
+}
+
 
 
 
