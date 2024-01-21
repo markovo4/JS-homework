@@ -1,9 +1,9 @@
 const greetings = function () {
-  console.log(`Hello, ${this.name}`);
+  return `Hello, ${this.name}`;
 };
 
 const showAge = function () {
-  console.log(`${this.name}, you are ${this.age} years old!`);
+  return `${this.name}, you are ${this.age} years old!`;
 };
 
 const createUser = function (name, age) {
@@ -17,9 +17,9 @@ const createUser = function (name, age) {
 };
 
 const newUser1 = createUser('Vlad', 20);
-newUser1.greetings();
-newUser1.showAge();
+console.log(newUser1.greetings());
+console.log(newUser1.showAge());
 
 const newUser2 = createUser('Vova', 20);
-newUser2.greetings();
-newUser2.showAge();
+console.log(newUser2.greetings());
+console.log(newUser2.showAge());
