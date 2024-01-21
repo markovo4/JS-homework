@@ -1,0 +1,31 @@
+{
+  "name": "js-homework",
+  "version": "1.0.0",
+  "description": "Напишіть функцію яка повертає рандомне чилсо в проміжку до 100",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markovo4/npm.git"
+  },
+  "keywords": [
+    "hw_js"
+  ],
+  "author": "Volodymyr Kirillov (Vlad)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markovo4/npm/issues"
+  },
+  "homepage": "https://github.com/markovo4/npm#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "prettier": "^3.2.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1"
+  }
+}
