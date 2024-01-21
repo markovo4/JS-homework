@@ -16,3 +16,5 @@ const revRandNum = function () {
 for (let i = 0; i < 100; i += 1) {
   console.log(revRandNum());
 }
+
+console.table(arrayOfUniqueNum);
