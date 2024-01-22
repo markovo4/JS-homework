@@ -1,14 +1,19 @@
+const greetings = function () {
+  return `Hello, ${this.name}`;
+};
+
+const showAge = function () {
+  return `${this.name}, you are ${this.age} years old!`;
+};
+
 const createUser = function (name, age) {
   const user = {
     name,
     age,
-    greetings() {
-      return `Hello, ${this.name}`;
-    },
-    showAge() {
-      return `${this.name}, you are ${this.age} years old!`;
-    },
   };
+
+  user.greetings = greetings;
+  user.showAge = showAge;
   return user;
 };
 
