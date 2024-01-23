@@ -13,7 +13,9 @@ const createUser = function (name, age) {
   };
 
   user.greetings = greetings;
+
   user.showAge = showAge;
+
   return user;
 };
 
