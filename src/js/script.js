@@ -4,8 +4,8 @@
 // are processed before any code within the script is executed.
 // Declaring a variable anywhere in the code is equivalent to declaring it at the top.
 // Since it was declared but not defined, it explains the reason behind the UNDEFINED output.
-// console.log(a);
-// var a = 10;
+console.log(a);
+var a = 10;
 
 // EXAMPLE: 2
 // RESULT: Hello, world!
