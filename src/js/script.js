@@ -49,12 +49,14 @@ function print() {
 }
 
 // PROGRAM:2 UNSUCCESSFUL (HOISTING)
-
+const y = 10;
 const a = 10;
 sum(a, y);
 
-function sum(a, y) {
-  console.log(`${a} + ${y}`);
-}
+const sum = function (x, z) {
+  console.log(`${x} + ${z}`);
+};
 
-var y = 10;
+// EXPLANATION: functions that were declared using FUNCTION-EXPRESSION method,
+// cannot be called before their initialization. As mentioned before they get
+// trapped into TDZ before their initialization
