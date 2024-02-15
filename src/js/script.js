@@ -6,11 +6,11 @@ const altFlat = function (...arr) {
   }
   const newArray = [];
   const flattener = function (array) {
-    for (const element of array) {
-      if (Array.isArray(element)) {
-        flattener(element);
+    for (let i = 0; i < array.length; i += 1) {
+      if (Array.isArray(array[i])) {
+        flattener(array[i]);
       } else {
-        newArray.push(element);
+        newArray.push(array[i]);
       }
     }
     return newArray;
