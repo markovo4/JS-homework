@@ -14,10 +14,11 @@ console.log(wordLength(word));
 // Program 3
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const arrIncrement = (array) => {
-  for (let i = 0; i < array.length; i += 1) {
-    array[i]++;
+  const arrIncreased = array;
+  for (let i = 0; i < arrIncreased.length; i += 1) {
+    arrIncreased[i] += 1;
   }
-  return array;
+  return arrIncreased;
 };
 
 console.log(arrIncrement(arr));
