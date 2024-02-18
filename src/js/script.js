@@ -20,10 +20,10 @@ console.log(newUserMethod);
 // Second Method
 const myApply = function (func, context, args) {
   context.func = func;
-  console.log(context.func(...args));
+  const result = context.func(...args);
   delete context.func;
+  return result;
 };
-
 const customBind = function (func, context, args) {
   return function () {
     myApply(func, context, ...args);
