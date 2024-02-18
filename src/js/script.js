@@ -20,7 +20,7 @@ console.log(newUserMethod);
 // Second Method
 const myApply = function (func, context, args) {
   context.func = func;
-  const result = context.func(...args);
+  const result = context.func(args, ...args);
   delete context.func;
   return result;
 };
