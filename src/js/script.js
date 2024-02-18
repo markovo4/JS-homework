@@ -1,21 +1,16 @@
 Function.prototype.myApply = function (context, argsArray) {
-  let newContext = context;
   const args = [];
-  if (context === 'null' || context === 'undefined') {
-    newContext = window;
-  }
 
   const uniqueKey = Symbol('temporaryElement');
-  newContext[uniqueKey] = this;
+  context[uniqueKey] = this;
 
   for (let i = 0; i < argsArray.length; i += 1) {
     args.push(`argsArray[${i}]`);
   }
 
-  const customCall = `newContext[uniqueKey](${args.join(',')})`;
+  const customCall = `context[uniqueKey](${args.join(',')})`;
   const result = eval(customCall);
-
-  delete newContext[uniqueKey];
+  delete context[uniqueKey];
 
   return result;
 };
@@ -29,3 +24,14 @@ const greetings = function (prefix) {
 };
 
 console.log(greetings.myApply(user, ['Hi']));
+
+// Second Method
+
+const customApply = function (func, context, args) {
+  context.func = func;
+  const result2 = context.func(...args);
+  delete context.func;
+  return result2;
+};
+
+console.log(customApply(greetings, user, ['Hi']));
