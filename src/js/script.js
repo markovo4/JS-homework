@@ -15,8 +15,20 @@ const greetings = function (greet) {
 };
 
 const newUserMethod = greetings.myBind(user, 'Hello');
-const newUserMethod2 = greetings.myBind(user, 'Hello');
+console.log(newUserMethod);
 
-console.log(greetings === greetings);
-console.log(newUserMethod === greetings);
-console.log(newUserMethod === newUserMethod2);
+// Second Method
+const myApply = function (func, context, args) {
+  context.func = func;
+  console.log(context.func(...args));
+  delete context.func;
+};
+
+const customBind = function (func, context, args) {
+  return function () {
+    myApply(func, context, ...args);
+  };
+};
+
+const newUserMethod2 = customBind(greetings, user, 'Hello');
+console.log(newUserMethod2);
